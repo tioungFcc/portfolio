@@ -11,4 +11,9 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     color: $gray-medium;
     letter-spacing: 1px;
+
+    @media (max-width: 600px){
+        //color: red;
+        font-size: 70%;
+    }
 }
