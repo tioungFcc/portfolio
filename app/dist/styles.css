@@ -113,6 +113,10 @@ html {
   text-align: center;
 }
 
+#projects .project-tiles .project-tile p {
+  font-size: 0.7rem;
+}
+
 #projects .project-tiles .project-tile .img-div {
   width: 100%;
   height: 300px;
@@ -125,6 +129,11 @@ html {
   margin: 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#projects .project-tiles .project-tile h5 {
+  font-size: 0.6rem;
+  margin-top: 0.5em;
 }
 
 #social {
